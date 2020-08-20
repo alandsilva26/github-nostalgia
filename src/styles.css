@@ -1,0 +1,17 @@
+img.avatar.avatar-user.width-full.border.bg-white.sm-bd-radius {
+  border-radius: 5% !important;
+}
+div.f5.js-user-status-context.user-status-circle-badge-container.custom-pos {
+  left: 0 !important;
+  margin-bottom: 12px !important;
+  margin-left: 10px !important;
+}
+
+div.Box.mt-4.display-none {
+  display: none !important;
+}
+
+/* POPUP */
+#popup-body {
+  width: 300px !important;
+}

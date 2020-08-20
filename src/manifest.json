@@ -1,0 +1,22 @@
+{
+  "name": "Gustom Github Design",
+  "version": "1.1.0",
+  "author": "Alan Anand Dsilva",
+  "description": "Customizes your Github profile dom",
+  "permissions": ["storage", "tabs", "activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["jquery.min.js", "content.js"],
+      "matches": ["https://github.com/*"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "manifest_version": 2
+}
