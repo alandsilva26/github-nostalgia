@@ -15,24 +15,12 @@ Google Chrome browser.
 
 ### Installing
 
-In google chrome enter url [chrome://extensions](chrome://extensions)  
+In google chrome enter url `chrome://extensions`
 On the top right of the page turn on `developer mode`
 
 ## Deployment
 
 To deploy locally drag and drop the `src` folder on to the chrome page or alternatively use the `Load unpacked` button below the app bar and select the `src` folder from your file explorer.
-
-<!-->
-
-## Built With
-
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. -->
 
 ## Versioning
 
