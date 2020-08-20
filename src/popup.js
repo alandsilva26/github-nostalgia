@@ -25,12 +25,14 @@ chrome.storage.sync.get(
     console.log(data.all);
     allStyles.checked = data.all;
     githubReadme.checked = data.githubReadme;
+    longBorder.checked = data.longBorder;
   }
 );
 
 function preferenceChanged() {
   chrome.tabs.query({}, function (tabs) {
     const payload = {
+      allStyles: allStyles.checked,
       githubReadme: githubReadme.checked,
       longBorder: longBorder.checked,
     };
