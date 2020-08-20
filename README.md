@@ -2,6 +2,7 @@
 
 Chrome extension to modify github profile dom.  
 This extension will customize github to look similar to the old design.
+Note that this extension is still under development any bug reports are welcome
 
 ## Getting Started
 
