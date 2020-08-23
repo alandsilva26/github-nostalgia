@@ -112,19 +112,3 @@ function listener() {
   console.log("listener fired.");
   updateDOM();
 }
-
-$(".UnderlineNav").bind("DOMSubtreeModified", function () {
-  alert("tree changed");
-});
-
-var timeout = null;
-document.addEventListener(
-  "DOMSubtreeModified",
-  function () {
-    if (timeout) {
-      clearTimeout(timeout);
-    }
-    timeout = setTimeout(listener, 100);
-  },
-  false
-);
