@@ -22,3 +22,9 @@ div.Box.mt-4.display-none {
   margin: 0 auto;
   overflow-wrap: break-word;
 }
+
+#popup-body .jumbotron {
+  margin-bottom: 0;
+  padding: 15 20;
+  border-radius: 0;
+}

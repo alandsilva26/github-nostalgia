@@ -10,6 +10,14 @@ githubReadme.addEventListener("click", preferenceChanged);
 const longBorder = document.getElementById("longBorder");
 longBorder.addEventListener("click", preferenceChanged);
 
+// console.log((document.getElementById("youtube-url").innerHTML = ""));
+
+// if ((document.getElementById("youtube-url").innerHTML = "")) {
+//   document.getElementById("other").style.display = "none";
+// } else {
+//   document.getElementById("other").style.display = "block";
+// }
+
 chrome.tabs.query({ active: true, currentWindow: true }, function (tabArray) {
   if (tabArray[0].url.includes("youtube.com")) {
     const codeString =
