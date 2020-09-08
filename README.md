@@ -21,7 +21,7 @@ I have always have had a need to copy a youtube video url with its timestamp. So
 
 Note that this extension is still under development any bug reports are welcome
 
-### Preview
+### Preview (before and after)
 
 ![](./screenshots/before.png)
 ![](./screenshots/after.png)
