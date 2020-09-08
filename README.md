@@ -2,7 +2,30 @@
 
 Chrome extension to modify github profile dom.  
 This extension will customize github to look similar to the old design.
+
+### What actually happens
+
+- Circular avatar changes to square avatar with rounded corners
+
+- The Circular avatar has a long rule behind it which is removed
+
+- Hides Github Readme if present
+
+- Adds horizontal rule below tabs.
+
+### All of these can be toggled however there are still some bugs.
+
+## Other features
+
+I have always have had a need to copy a youtube video url with its timestamp. So I have programmed this extension to auto pick the current timestamp you are on and create a url with appropriate parameters.
+
 Note that this extension is still under development any bug reports are welcome
+
+### Preview
+
+![](./screenshots/before.png)
+![](./screenshots/after.png)
+![](./screenshots/extension.png)
 
 ## Getting Started
 

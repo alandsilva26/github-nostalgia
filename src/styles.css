@@ -13,5 +13,12 @@ div.Box.mt-4.display-none {
 
 /* POPUP */
 #popup-body {
-  width: 300px !important;
+  width: 400px !important;
+}
+
+#youtube-url {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  overflow-wrap: break-word;
 }

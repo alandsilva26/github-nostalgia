@@ -12,7 +12,7 @@
     {
       "css": ["styles.css"],
       "js": ["jquery.min.js", "content.js"],
-      "matches": ["https://github.com/*"]
+      "matches": ["https://github.com/*", "*://www.youtube.com/*"]
     }
   ],
   "browser_action": {
