@@ -6,11 +6,9 @@ This extension will customize github to look similar to the old design.
 ### What actually happens
 
 - Circular avatar changes to square avatar with rounded corners
-
 - The Circular avatar has a long rule behind it which is removed
-
+- Status element position is shifted
 - Hides Github Readme if present
-
 - Adds horizontal rule below tabs.
 
 ### All of these can be toggled however there are still some bugs.
