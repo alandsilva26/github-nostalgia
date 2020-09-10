@@ -23,8 +23,8 @@ Note that this extension is still under development any bug reports are welcome
 
 ### Preview
 
-| Before | After |
-|--------|-------|
+| Before                        | After                        |
+| ----------------------------- | ---------------------------- |
 | ![](./screenshots/before.png) | ![](./screenshots/after.png) |
 
 ![](./screenshots/extension.png)
