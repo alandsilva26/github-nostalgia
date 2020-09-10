@@ -105,4 +105,31 @@ document.addEventListener(
   false
 );
 
-document.querySelector("rect.day").setAttribute("fill", "#ffff00");
+const colors = ["#32215F", "#53379D", "#A491D8", "#C2B6E5"];
+const existingColors = ["#216e39", "#30a14e", "#40c463", "#9be9a8"];
+
+for (let i = 0; i < document.getElementsByTagName("rect").length; i++) {
+  let box = document.getElementsByTagName("rect")[i];
+  switch (box.getAttribute("fill")) {
+    case existingColors[0]:
+      // console.log(box);
+      box.setAttribute("fill", colors[0]);
+      break;
+    case existingColors[1]:
+      box.setAttribute("fill", colors[1]);
+      break;
+    case existingColors[2]:
+      box.setAttribute("fill", colors[2]);
+      break;
+    case existingColors[3]:
+      box.setAttribute("fill", colors[3]);
+      break;
+  }
+}
+
+let colorPanel = document.getElementsByClassName("contrib-legend text-gray")[0]
+  .children[0].children;
+
+for (let i = 1; i < 5; i++) {
+  colorPanel[i].style.backgroundColor = colors[4 - i];
+}
