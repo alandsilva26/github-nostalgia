@@ -27,7 +27,7 @@ Note that this extension is still under development any bug reports are welcome
 | ----------------------------- | ---------------------------- |
 | ![](./screenshots/before.png) | ![](./screenshots/after.png) |
 
-![](./screenshots/extension.png)
+![](./screenshots/extension1.png)
 
 ## Getting Started
 
