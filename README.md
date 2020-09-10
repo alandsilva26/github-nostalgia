@@ -13,6 +13,12 @@ This extension will customize github to look similar to the old design.
 
 - Adds horizontal rule below tabs.
 
+- Move the position of status element
+
+- Change the contribution graph colors
+
+- When playing a youtube view the url with timestamp will be shown 
+
 ### All of these can be toggled however there are still some bugs.
 
 ## Other features
