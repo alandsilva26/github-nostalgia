@@ -5,13 +5,13 @@
   "description": "Customizes your Github profile dom",
   "permissions": ["storage", "tabs", "activeTab", "declarativeContent"],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["js/background.js"],
     "persistent": false
   },
   "content_scripts": [
     {
-      "css": ["styles.css"],
-      "js": ["jquery.min.js", "content.js"],
+      "css": ["css/styles.css"],
+      "js": ["js/jquery.min.js", "js/content.js"],
       "matches": ["https://github.com/*", "*://www.youtube.com/*"]
     }
   ],

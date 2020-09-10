@@ -1,0 +1,25 @@
+{
+  "name": "github-nostalgia",
+  "version": "1.0.0",
+  "description": "Chrome extension to modify GitHub profile dom. This extension will customize GitHub to look similar to the old design. Also added ability to auto format the url of a currently playing YouTube video and display with current timestamp that you are on.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alandsilva26/github-nostalgia.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "web-extensions"
+  ],
+  "author": "Alan Dsilva <alandsilva2001@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alandsilva26/github-nostalgia/issues"
+  },
+  "homepage": "https://github.com/alandsilva26/github-nostalgia#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0"
+  }
+}
