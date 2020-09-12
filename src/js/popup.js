@@ -52,12 +52,12 @@ chrome.tabs.query({ active: true, currentWindow: true }, function (tabArray) {
         let url = tabArray[0].url;
         const regex = /t=[\d]{0,}$/;
         if (regex.test(url)) {
-          url.replace(regex, `t=${sec}`);
+          var newStr = url.replace(regex, `t=${sec}`);
         } else {
-          url = url + `&t=${sec}`;
+          var newStr = url + `&t=${sec}`;
         }
-        document.getElementById("youtube-url").innerHTML = url;
-        document.getElementById("youtube-url").setAttribute("href", url);
+        document.getElementById("youtube-url").innerHTML = newStr;
+        document.getElementById("youtube-url").setAttribute("href", newStr);
       }
     );
   }
